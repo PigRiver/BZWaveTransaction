@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A298F3919889E3800DCEB38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A298F3819889E3800DCEB38 /* Foundation.framework */; };
+		0A298F3B19889E3800DCEB38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A298F3A19889E3800DCEB38 /* CoreGraphics.framework */; };
+		0A298F3D19889E3800DCEB38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A298F3C19889E3800DCEB38 /* UIKit.framework */; };
+		0A298F4319889E3800DCEB38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A298F4119889E3800DCEB38 /* InfoPlist.strings */; };
+		0A298F4519889E3800DCEB38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F4419889E3800DCEB38 /* main.m */; };
+		0A298F4919889E3800DCEB38 /* BZWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F4819889E3800DCEB38 /* BZWAppDelegate.m */; };
+		0A298F5219889E3800DCEB38 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A298F5119889E3800DCEB38 /* XCTest.framework */; };
+		0A298F5319889E3800DCEB38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A298F3819889E3800DCEB38 /* Foundation.framework */; };
+		0A298F5419889E3800DCEB38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A298F3C19889E3800DCEB38 /* UIKit.framework */; };
+		0A298F5C19889E3800DCEB38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A298F5A19889E3800DCEB38 /* InfoPlist.strings */; };
+		0A298F5E19889E3800DCEB38 /* BZWaveTransactionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F5D19889E3800DCEB38 /* BZWaveTransactionTests.m */; };
+		0A298F6919889E6800DCEB38 /* BZWFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F6819889E6800DCEB38 /* BZWFirstViewController.m */; };
+		0A298F6C19889E7900DCEB38 /* BZWSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F6B19889E7900DCEB38 /* BZWSecondViewController.m */; };
+		0A298F701988C5E100DCEB38 /* BZWWaveTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F6F1988C5E100DCEB38 /* BZWWaveTransaction.m */; };
+		0A298F731988FBF900DCEB38 /* BZWCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F721988FBF900DCEB38 /* BZWCustomView.m */; };
+		0A298F76198A4CAE00DCEB38 /* BZWWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F75198A4CAE00DCEB38 /* BZWWaveViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A298F5519889E3800DCEB38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A298F2D19889E3800DCEB38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A298F3419889E3800DCEB38;
+			remoteInfo = BZWaveTransaction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A298F3519889E3800DCEB38 /* BZWaveTransaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BZWaveTransaction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A298F3819889E3800DCEB38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A298F3A19889E3800DCEB38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A298F3C19889E3800DCEB38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A298F4019889E3800DCEB38 /* BZWaveTransaction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BZWaveTransaction-Info.plist"; sourceTree = "<group>"; };
+		0A298F4219889E3800DCEB38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A298F4419889E3800DCEB38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A298F4619889E3800DCEB38 /* BZWaveTransaction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BZWaveTransaction-Prefix.pch"; sourceTree = "<group>"; };
+		0A298F4719889E3800DCEB38 /* BZWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZWAppDelegate.h; sourceTree = "<group>"; };
+		0A298F4819889E3800DCEB38 /* BZWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZWAppDelegate.m; sourceTree = "<group>"; };
+		0A298F5019889E3800DCEB38 /* BZWaveTransactionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BZWaveTransactionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A298F5119889E3800DCEB38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0A298F5919889E3800DCEB38 /* BZWaveTransactionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BZWaveTransactionTests-Info.plist"; sourceTree = "<group>"; };
+		0A298F5B19889E3800DCEB38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A298F5D19889E3800DCEB38 /* BZWaveTransactionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZWaveTransactionTests.m; sourceTree = "<group>"; };
+		0A298F6719889E6800DCEB38 /* BZWFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZWFirstViewController.h; sourceTree = "<group>"; };
+		0A298F6819889E6800DCEB38 /* BZWFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZWFirstViewController.m; sourceTree = "<group>"; };
+		0A298F6A19889E7900DCEB38 /* BZWSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZWSecondViewController.h; sourceTree = "<group>"; };
+		0A298F6B19889E7900DCEB38 /* BZWSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZWSecondViewController.m; sourceTree = "<group>"; };
+		0A298F6E1988C5E100DCEB38 /* BZWWaveTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZWWaveTransaction.h; sourceTree = "<group>"; };
+		0A298F6F1988C5E100DCEB38 /* BZWWaveTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZWWaveTransaction.m; sourceTree = "<group>"; };
+		0A298F711988FBF900DCEB38 /* BZWCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZWCustomView.h; sourceTree = "<group>"; };
+		0A298F721988FBF900DCEB38 /* BZWCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZWCustomView.m; sourceTree = "<group>"; };
+		0A298F74198A4CAE00DCEB38 /* BZWWaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZWWaveViewController.h; sourceTree = "<group>"; };
+		0A298F75198A4CAE00DCEB38 /* BZWWaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZWWaveViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A298F3219889E3800DCEB38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A298F3B19889E3800DCEB38 /* CoreGraphics.framework in Frameworks */,
+				0A298F3D19889E3800DCEB38 /* UIKit.framework in Frameworks */,
+				0A298F3919889E3800DCEB38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A298F4D19889E3800DCEB38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A298F5219889E3800DCEB38 /* XCTest.framework in Frameworks */,
+				0A298F5419889E3800DCEB38 /* UIKit.framework in Frameworks */,
+				0A298F5319889E3800DCEB38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A298F2C19889E3800DCEB38 = {
+			isa = PBXGroup;
+			children = (
+				0A298F3E19889E3800DCEB38 /* BZWaveTransaction */,
+				0A298F5719889E3800DCEB38 /* BZWaveTransactionTests */,
+				0A298F3719889E3800DCEB38 /* Frameworks */,
+				0A298F3619889E3800DCEB38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A298F3619889E3800DCEB38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A298F3519889E3800DCEB38 /* BZWaveTransaction.app */,
+				0A298F5019889E3800DCEB38 /* BZWaveTransactionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A298F3719889E3800DCEB38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A298F3819889E3800DCEB38 /* Foundation.framework */,
+				0A298F3A19889E3800DCEB38 /* CoreGraphics.framework */,
+				0A298F3C19889E3800DCEB38 /* UIKit.framework */,
+				0A298F5119889E3800DCEB38 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A298F3E19889E3800DCEB38 /* BZWaveTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				0A298F711988FBF900DCEB38 /* BZWCustomView.h */,
+				0A298F721988FBF900DCEB38 /* BZWCustomView.m */,
+				0A298F6D1988C5BF00DCEB38 /* BZWaveTransaction */,
+				0A298F4719889E3800DCEB38 /* BZWAppDelegate.h */,
+				0A298F4819889E3800DCEB38 /* BZWAppDelegate.m */,
+				0A298F3F19889E3800DCEB38 /* Supporting Files */,
+				0A298F6719889E6800DCEB38 /* BZWFirstViewController.h */,
+				0A298F6819889E6800DCEB38 /* BZWFirstViewController.m */,
+				0A298F6A19889E7900DCEB38 /* BZWSecondViewController.h */,
+				0A298F6B19889E7900DCEB38 /* BZWSecondViewController.m */,
+			);
+			path = BZWaveTransaction;
+			sourceTree = "<group>";
+		};
+		0A298F3F19889E3800DCEB38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A298F4019889E3800DCEB38 /* BZWaveTransaction-Info.plist */,
+				0A298F4119889E3800DCEB38 /* InfoPlist.strings */,
+				0A298F4419889E3800DCEB38 /* main.m */,
+				0A298F4619889E3800DCEB38 /* BZWaveTransaction-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A298F5719889E3800DCEB38 /* BZWaveTransactionTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A298F5D19889E3800DCEB38 /* BZWaveTransactionTests.m */,
+				0A298F5819889E3800DCEB38 /* Supporting Files */,
+			);
+			path = BZWaveTransactionTests;
+			sourceTree = "<group>";
+		};
+		0A298F5819889E3800DCEB38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A298F5919889E3800DCEB38 /* BZWaveTransactionTests-Info.plist */,
+				0A298F5A19889E3800DCEB38 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A298F6D1988C5BF00DCEB38 /* BZWaveTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				0A298F6E1988C5E100DCEB38 /* BZWWaveTransaction.h */,
+				0A298F6F1988C5E100DCEB38 /* BZWWaveTransaction.m */,
+				0A298F74198A4CAE00DCEB38 /* BZWWaveViewController.h */,
+				0A298F75198A4CAE00DCEB38 /* BZWWaveViewController.m */,
+			);
+			path = BZWaveTransaction;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A298F3419889E3800DCEB38 /* BZWaveTransaction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A298F6119889E3800DCEB38 /* Build configuration list for PBXNativeTarget "BZWaveTransaction" */;
+			buildPhases = (
+				0A298F3119889E3800DCEB38 /* Sources */,
+				0A298F3219889E3800DCEB38 /* Frameworks */,
+				0A298F3319889E3800DCEB38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BZWaveTransaction;
+			productName = BZWaveTransaction;
+			productReference = 0A298F3519889E3800DCEB38 /* BZWaveTransaction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A298F4F19889E3800DCEB38 /* BZWaveTransactionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A298F6419889E3800DCEB38 /* Build configuration list for PBXNativeTarget "BZWaveTransactionTests" */;
+			buildPhases = (
+				0A298F4C19889E3800DCEB38 /* Sources */,
+				0A298F4D19889E3800DCEB38 /* Frameworks */,
+				0A298F4E19889E3800DCEB38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A298F5619889E3800DCEB38 /* PBXTargetDependency */,
+			);
+			name = BZWaveTransactionTests;
+			productName = BZWaveTransactionTests;
+			productReference = 0A298F5019889E3800DCEB38 /* BZWaveTransactionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A298F2D19889E3800DCEB38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BZW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.Bruce.Wave;
+				TargetAttributes = {
+					0A298F4F19889E3800DCEB38 = {
+						TestTargetID = 0A298F3419889E3800DCEB38;
+					};
+				};
+			};
+			buildConfigurationList = 0A298F3019889E3800DCEB38 /* Build configuration list for PBXProject "BZWaveTransaction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A298F2C19889E3800DCEB38;
+			productRefGroup = 0A298F3619889E3800DCEB38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A298F3419889E3800DCEB38 /* BZWaveTransaction */,
+				0A298F4F19889E3800DCEB38 /* BZWaveTransactionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A298F3319889E3800DCEB38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A298F4319889E3800DCEB38 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A298F4E19889E3800DCEB38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A298F5C19889E3800DCEB38 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A298F3119889E3800DCEB38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A298F4919889E3800DCEB38 /* BZWAppDelegate.m in Sources */,
+				0A298F701988C5E100DCEB38 /* BZWWaveTransaction.m in Sources */,
+				0A298F4519889E3800DCEB38 /* main.m in Sources */,
+				0A298F6C19889E7900DCEB38 /* BZWSecondViewController.m in Sources */,
+				0A298F6919889E6800DCEB38 /* BZWFirstViewController.m in Sources */,
+				0A298F76198A4CAE00DCEB38 /* BZWWaveViewController.m in Sources */,
+				0A298F731988FBF900DCEB38 /* BZWCustomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A298F4C19889E3800DCEB38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A298F5E19889E3800DCEB38 /* BZWaveTransactionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A298F5619889E3800DCEB38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A298F3419889E3800DCEB38 /* BZWaveTransaction */;
+			targetProxy = 0A298F5519889E3800DCEB38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A298F4119889E3800DCEB38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A298F4219889E3800DCEB38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A298F5A19889E3800DCEB38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A298F5B19889E3800DCEB38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A298F5F19889E3800DCEB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A298F6019889E3800DCEB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A298F6219889E3800DCEB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7s,
+					armv7,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BZWaveTransaction/BZWaveTransaction-Prefix.pch";
+				INFOPLIST_FILE = "BZWaveTransaction/BZWaveTransaction-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A298F6319889E3800DCEB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7s,
+					armv7,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BZWaveTransaction/BZWaveTransaction-Prefix.pch";
+				INFOPLIST_FILE = "BZWaveTransaction/BZWaveTransaction-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0A298F6519889E3800DCEB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BZWaveTransaction.app/BZWaveTransaction";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BZWaveTransaction/BZWaveTransaction-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BZWaveTransactionTests/BZWaveTransactionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0A298F6619889E3800DCEB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BZWaveTransaction.app/BZWaveTransaction";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BZWaveTransaction/BZWaveTransaction-Prefix.pch";
+				INFOPLIST_FILE = "BZWaveTransactionTests/BZWaveTransactionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A298F3019889E3800DCEB38 /* Build configuration list for PBXProject "BZWaveTransaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A298F5F19889E3800DCEB38 /* Debug */,
+				0A298F6019889E3800DCEB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A298F6119889E3800DCEB38 /* Build configuration list for PBXNativeTarget "BZWaveTransaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A298F6219889E3800DCEB38 /* Debug */,
+				0A298F6319889E3800DCEB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A298F6419889E3800DCEB38 /* Build configuration list for PBXNativeTarget "BZWaveTransactionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A298F6519889E3800DCEB38 /* Debug */,
+				0A298F6619889E3800DCEB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A298F2D19889E3800DCEB38 /* Project object */;
+}
